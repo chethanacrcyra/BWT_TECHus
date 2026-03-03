@@ -1,21 +1,21 @@
-NeuroDrive DNA-(AI-Powered Cognitive Study Intelligence System)
+PROJECT TITLE: NeuroDrive DNA-(AI-Powered Cognitive Study Intelligence System)
 THEME: AI Super Productivity Tools
 PROBLEM STATEMENT:The Overwhelmed Learner 
 
 SOLUTION
 NeuroDrive DNA is an AI-powered efficient academic operating system that:
-1.Organizes course materials intelligently
-2.Tracks study behavior patterns
-3.Builds a personalized “Distraction DNA” profile
-4.Predicts required study intensity before exams
-5.Dynamically adapts study schedules based on cognitive behavior
+1.Organizes course materials in a simple efficient and easy access format.
+2.Predicts required study intensity before exams and time availability.
+3.Tracks study behavior patterns and provide effective notifications. 
+4.Builds a personalized “Distraction DNA” profile.
+5.Dynamically adapts study schedules based on cognitive behavior.
 
 KEY FEATURES
-1️.Smart Course & Module Organizer
+1.SMART AI COURSE AND MODULES
 Add courses and modules
 Tracks time spent on each module
 Automatically resumes where the user left off
-2️.Distraction DNA Engine
+2.DISTRACTION DNA ENGINE
 Analyzes:
 App/Tab switching frequency
 Idle time
@@ -23,49 +23,44 @@ Focus duration
 Re-reading behavior
 Time-of-day productivity
 Generates a personalized distraction profile.
-3️.AI Exam Countdown Planner
+3.AI EXAM COUNTDOWN PLAN
 Input exam date & syllabus
 Calculates slides per day required
 Estimates study hours per day
 Auto-generates daily study tasks
-4️.Intensity Analyzer
+4.INTENSITY ANALYZER
 Evaluates content density
 Classifies modules as:
 Light
 Moderate
 Intensive
-5️.DNA-Based Smart Notifications
+5.DNA-BASED SMART NOTIFICATION
 Instead of generic reminders:
 Shows exact module to continue
 Displays progress toward completion
 Encourages consistency
-6️.Cognitive Evolution Dashboard
+6.COGNITIVE EVOLUTION BOARD
 Displays:
 Weekly focus improvement
 Distraction frequency trends
 Completion rate
 Productivity time analysis
 SYSTEM ARCHITECTURE
-USER
-→ Course & Module Manager
-→ Behavior Tracking Layer
-→ Distraction DNA Classifier
-→ Adaptive Study Planner
-→ Smart Notification System
-(Architecture diagram provided in /architecture/system_design.png)
+
 LANGUAGES and TECHNOLOGY USED:
 FRONTEND:
-React.js / HTML CSS JavaScript
+HTML,CSS 
 BACKEND:
-Node.js / Python Flask
+Node.js 
 DATABASE:
-Firebase / MongoDB
+Firebase 
 AI LOGIC:
 Rule-based behavior analysis
 Focus scoring algorithm
 Adaptive scheduling logic
-🎯 Future Enhancements
-Machine learning–based distraction prediction
+
+FUTURE IMPROVEMENTS
+Real-time productivity insights
 Emotion-aware productivity suggestions
 Integration with LMS platforms
-Real-time productivity insights
+
