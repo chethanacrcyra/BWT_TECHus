@@ -1,6 +1,6 @@
 PROJECT TITLE: NeuroDrive DNA-(AI-Powered Cognitive Study Intelligence System)
 THEME: AI Super Productivity Tools
-PROBLEM STATEMENT:The Overwhelmed Learner 
+PROBLEM STATEMENT:The Overwhelmed Learner
 
 SOLUTION
 NeuroDrive DNA is an AI-powered efficient academic operating system that:
