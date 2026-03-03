@@ -45,7 +45,30 @@ Weekly focus improvement
 Distraction frequency trends
 Completion rate
 Productivity time analysis
+
 SYSTEM ARCHITECTURE
+NeuroDrive DNA is an AI-powered cognitive study intelligence system that:
+Organizes study modules
+Tracks focus behavior
+Analyzes distraction patterns
+Generates personalized study plans
+Classifies users into a Cognitive DNA type
+The system follows a full-stack modular architecture.
+
+        React Frontend (UI)
+                │
+                ▼
+        FastAPI Backend (API + Logic)
+                │
+                ▼
+      Distraction DNA Engine (AI Layer)
+                │
+                ▼
+            MongoDB Database
+
+
+SYSTEM FLOW
+User → React UI → FastAPI → AI Engine → MongoDB → Personalized Response → Dashboard Update
 
 LANGUAGES and TECHNOLOGY USED:
 FRONTEND:
@@ -53,7 +76,7 @@ HTML,CSS
 BACKEND:
 Node.js 
 DATABASE:
-Firebase 
+MongoDB
 AI LOGIC:
 Rule-based behavior analysis
 Focus scoring algorithm
