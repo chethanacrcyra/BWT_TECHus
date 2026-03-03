@@ -98,6 +98,50 @@ neurodrive-dna/
 │
 Return structure and basic starter code.
 
+FLOW CHART
+                         ┌──────────────────────────────┐
+                         │        USER (Student)        │
+                         └───────────────┬──────────────┘
+                                         │
+                                         ▼
+                    ┌────────────────────────────────────┐
+                    │        FRONTEND (UI Layer)         │
+                    │  HTML | CSS | React Components     │
+                    │  - Dashboard                       │
+                    │  - Focus Timer                     │
+                    │  - Course Manager                  │
+                    │  - Exam Planner                    │
+                    └───────────────┬────────────────────┘
+                                    │ API Requests
+                                    ▼
+                    ┌────────────────────────────────────┐
+                    │      BACKEND (Application Layer)   │
+                    │        Node.js / FastAPI           │
+                    │  - Session Handling                │
+                    │  - Plan Calculation                │
+                    │  - Data Processing                 │
+                    └───────────────┬────────────────────┘
+                                    │
+                                    ▼
+                    ┌────────────────────────────────────┐
+                    │        AI LOGIC LAYER              │
+                    │  Distraction DNA Engine            │
+                    │  - Rule-based Behavior Analysis    │
+                    │  - Focus Scoring Algorithm         │
+                    │  - Productivity Time Analysis      │
+                    │  - Completion Rate Evaluation      │
+                    └───────────────┬────────────────────┘
+                                    │
+                                    ▼
+                    ┌────────────────────────────────────┐
+                    │          DATABASE LAYER            │
+                    │        MongoDB / Firebase          │
+                    │  - Courses & Modules               │
+                    │  - Focus Sessions                  │
+                    │  - Exam Plans                      │
+                    │  - DNA Profiles                    │
+                    └────────────────────────────────────┘
+
 SYSTEM FLOW
 User → React UI → FastAPI → AI Engine → MongoDB → Personalized Response → Dashboard Update
 
