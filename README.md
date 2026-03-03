@@ -47,7 +47,7 @@ Completion rate
 Productivity time analysis
 
 SYSTEM ARCHITECTURE
-NeuroDrive DNA is an AI-powered cognitive study intelligence system that:
+NeuroDrive DNA is an AI-powered cognitive study intelligence system that,
 Organizes study modules
 Tracks focus behavior
 Analyzes distraction patterns
@@ -66,21 +66,50 @@ The system follows a full-stack modular architecture.
                 ▼
             MongoDB Database
 
+Create a full-stack AI web application named “NeuroDrive DNA”.
+
+neurodrive-dna/
+│
+├── backend/
+│   ├── main.py
+│   ├── database.py
+│   ├── models.py
+│   ├── routes/
+│   │     ├── courses.py
+│   │     ├── focus.py
+│   │     ├── planner.py
+│   │     └── dna.py
+│   └── services/
+│         └── dna_classifier.py
+│
+├── frontend/
+│   ├── src/
+│   │     ├── pages/
+│   │     │     ├── Dashboard.jsx
+│   │     │     ├── Courses.jsx
+│   │     │     ├── Focus.jsx
+│   │     │     └── Planner.jsx
+│   │     ├── components/
+│   │     │     ├── Navbar.jsx
+│   │     │     ├── ProgressCard.jsx
+│   │     │     └── DNAResult.jsx
+│   │     └── App.jsx
+│   └── package.json
+│
+Return structure and basic starter code.
 
 SYSTEM FLOW
 User → React UI → FastAPI → AI Engine → MongoDB → Personalized Response → Dashboard Update
 
 LANGUAGES and TECHNOLOGY USED:
 FRONTEND:
-HTML,CSS 
+React.js + Tailwind CSS
 BACKEND:
-Node.js 
+Python FastAPI 
 DATABASE:
 MongoDB
 AI LOGIC:
-Rule-based behavior analysis
-Focus scoring algorithm
-Adaptive scheduling logic
+Python-based behavioral classifier
 
 FUTURE IMPROVEMENTS
 Real-time productivity insights
